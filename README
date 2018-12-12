@@ -101,9 +101,9 @@ prepare-mysql.sh: This script "prepares" the back up directories by processing t
 You can view the scripts in the repository for this tutorial on GitHub at any time. If you do not want to copy and paste the contents below, you can download them directly from GitHub by typing:
 ```
 cd /tmp
-curl -LO https://raw.githubusercontent.com/bajrang0789/ubuntu-1604-mysql-backup/master/backup-mysql.sh
-curl -LO https://raw.githubusercontent.com/bajrang0789/ubuntu-1604-mysql-backup/master/extract-mysql.sh
-curl -LO https://raw.githubusercontent.com/bajrang0789/ubuntu-1604-mysql-backup/master/prepare-mysql.sh
+curl -LO https://raw.githubusercontent.com/bajrang0789/ubuntu-mysql-inc-xtrabackup/master/backup-mysql.sh
+curl -LO https://raw.githubusercontent.com/bajrang0789/ubuntu-mysql-inc-xtrabackup/master/extract-mysql.sh
+curl -LO https://raw.githubusercontent.com/bajrang0789/ubuntu-mysql-inc-xtrabackup/master/prepare-mysql.sh
 ```
 
 Be sure to inspect the scripts after downloading to make sure they were retrieved successfully and that you approve of the actions they will perform. If you are satisfied, mark the scripts as executable and then move them into the /usr/local/bin directory by typing:
